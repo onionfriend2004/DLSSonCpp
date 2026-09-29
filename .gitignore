@@ -1,0 +1,10 @@
+*.o
+*.obj
+run
+*.bin
+*.tsv
+.vscode/
+.idea/
+*.swp
+.DS_Store
+ 
