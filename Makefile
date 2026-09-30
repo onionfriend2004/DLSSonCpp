@@ -1,5 +1,5 @@
 CXX      = g++
-CXXFLAGS = -O2 -Wall -Wextra
+CXXFLAGS = -O2 -std=c++23 -Wall -Wextra
 
 run: main.o io.o codec.o
 	$(CXX) $(CXXFLAGS) -o $@ $^
